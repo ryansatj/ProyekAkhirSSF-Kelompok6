@@ -1,5 +1,6 @@
 # ProyekAkhirSSF-Kelompok6 | SECURITY SYSTEM SENSOR
 
+
 ## Introduction to the problem and the solution
 Keamanan rumah dan properti merupakan aspek penting dalam kehidupan sehari-hari.
 Banyak orang mencari cara efektif untuk melindungi rumah mereka dari pencurian atau intrusi,
@@ -64,7 +65,7 @@ Komponen yang dibutuhkan dalam mendesain dan merangkai skema alat serta fungsiny
 13) Satu buah Button
     Button digunakan sebagai indikator apabila situasi sudah aman dan bertujuan untuk mematikan Buzzer yang sebelumnya dijadikan sebagai alarm dan melakukan reset agar rangkaian dapat melakukan tugasnya kembali.
 
-    Sehingga pada rangkaian fisik, Arduino Master akan terhubung oleh sensor PIR dan Arduino Slave terhubung dengan Buzzer, LED merah, LED hijau, dan Relay Module. Dan pastinya Ardunio Master dan Arduino Slave juga saling terhubung satu sama lain.
+Sehingga pada rangkaian fisik, Arduino Master akan terhubung oleh sensor PIR dan Arduino Slave terhubung dengan Buzzer, LED merah, LED hijau, dan Relay Module. Dan pastinya Ardunio Master dan Arduino Slave juga saling terhubung satu sama lain.
     
 ## Software implementation details
 Pertama-tama, Arduino Master akan menerima data yang diterima dari sensor PIR (sensor gerak). Jika sensor PIR tidak mendeteksi pergerakan (not triggered), maka hanya data low (0) akan dikirimkan dari Arduino Master ke Arduino Slave agar LED hijau menyala dan Arduino Master akan terus membaca data dari sensor PIR. Tetapi jika sensor PIR  mendeteksi pergerakan (triggered), maka data high (1) akan dikirimkan dari Arduino Master ke Arduino Slave, di mana data high ini akan meng-trigger LED merah, Buzzer, dan Door Lock.  
@@ -96,6 +97,7 @@ untuk memeriksa status inframerah dari sensor PIR. Ketika terdapat gerakan yang 
 terdeteksi, Buzzer dan LED akan menyala memberikan indikasi audio dan visual. Namun, apabila
 tidak terdapat gerakan yang terdeteksi, Buzzer dan LED akan tetap berada dalam kondisi non-
 aktif.
+
 Integrasi sensor PIR memberikan deteksi gerakan yang andal, membuat sistem ini sangat
 tanggap terhadap setiap gerakan di dalam area yang dipantau. Buzzer dan LED berfungsi sebagai
 mekanisme peringatan yang efisien, dengan cepat menginformasikan pengguna tentang potensi
