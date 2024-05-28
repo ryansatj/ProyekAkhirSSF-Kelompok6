@@ -94,9 +94,13 @@ Karena terdapat 2 Arduino yang akan dijadikan Master dan Slave, maka terdapat co
    
 2) Pengujian Pada Rangkaian Fisik
    Pada saat melakukan pengujian di rangkaian fisik, terdapat beberapa hal yang terjadi:
+   
    a. Sensor PIR tidak bisa mendeteksi perubahan radiasi dengan sensitivitas dan delay time yang dapat diatur secara langsung dan dinamis.
+   
    b. Arduino Master mengalami sedikit kerusakan, yang mengakibatkan Arduino Slave tidak bisa menerima data yang dikirim oleh Arduino Master.
+   
    c. LED dan Buzzer dapat menyala, tetapi keduanya harus terisolasi dari Arduino Master.
+   
    d. Buzzer sepertinya mengalami korslet yang membuat suara Buzzer menjadi kecil. 
 
    Karena keempat hal tersebut, hasil uji pada rangkaian fisik tidak sesuai tujuan program ini. 
