@@ -80,7 +80,7 @@ Secara singkat, program akan menyalakan LED hijau jika tidak ada pergerakan, dan
 
 Karena terdapat 2 Arduino yang akan dijadikan Master dan Slave, maka terdapat code Assembly masing-masing untuk Arduino Master dan Arduino Slave. Kami menggunakan Proteus untuk membuat rangkaian digital dan untuk melakukan test pada code Assembly yang dibuat. 
 
-## Test results and performance evaluation
+## Test Results and Performance Evaluation
 1) Pengujian Rangkaian Pada Proteus
    Pada saat code Assembly untuk Master dan Slave dijalankan di Proteus, program berjalan seperti tujuan dari program ini. Di mana LED hijau akan menyala jika PIR tidak mendeteksi adanya pergerakan, dan LED merah serta Buzzer akan menyala jika PIR mendeteksi adanya pergerakan.
    
