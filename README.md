@@ -6,7 +6,7 @@
 3. Ryan Safa Tjendana (2206826835)
 4. Yasmin Devina Sinuraya (2206817244)
 
-## Introduction to the problem and the solution
+## Introduction To The Problem and The Solution
 Keamanan rumah dan properti merupakan aspek penting dalam kehidupan sehari-hari.
 Banyak orang mencari cara efektif untuk melindungi rumah mereka dari pencurian atau intrusi,
 dan salah satu solusi yang banyak digunakan adalah sistem keamanan berbasis sensor yang dapat
@@ -38,7 +38,7 @@ gambaran yang jelas mengenai tujuan dan langkah-langkah yang akan diambil dalam
 pengembangan sistem keamanan berbasis sensor PIR menggunakan Arduino.
 
 
-## Hardware design and implementation details
+## Hardware Design and Implementation Details
 Komponen yang dibutuhkan dalam mendesain dan merangkai skema alat serta fungsinya dalam rangkaian antara lain adalah :
 1) Dua buah Arduino UNO
 
@@ -72,7 +72,7 @@ Komponen yang dibutuhkan dalam mendesain dan merangkai skema alat serta fungsiny
 
 Sehingga pada rangkaian fisik, Arduino Master akan terhubung oleh sensor PIR dan Arduino Slave terhubung dengan Buzzer, LED merah, LED hijau, dan Relay Module. Dan pastinya Ardunio Master dan Arduino Slave juga saling terhubung satu sama lain.
     
-## Software implementation details
+## Software Implementation Details
 Pertama-tama, Arduino Master akan menerima data yang diterima dari sensor PIR (sensor gerak). Jika sensor PIR tidak mendeteksi pergerakan (not triggered), maka hanya data low (0) akan dikirimkan dari Arduino Master ke Arduino Slave agar LED hijau menyala dan Arduino Master akan terus membaca data dari sensor PIR. Tetapi jika sensor PIR  mendeteksi pergerakan (triggered), maka data high (1) akan dikirimkan dari Arduino Master ke Arduino Slave, di mana data high ini akan meng-trigger LED merah, Buzzer, dan Door Lock.  
 Selanjutnya program akan mengecek apakah Button Reset ditekan atau tidak. Jika ditekan maka proses konfigurasi Master dan Slave akan dilakukan kembali. Tetapi jika Button Reset tidak ditekan, maka LED merah, Buzzer, dan Door Lock akan terus menyala. 
 
@@ -93,7 +93,7 @@ Karena terdapat 2 Arduino yang akan dijadikan Master dan Slave, maka terdapat co
 
    Karena keempat hal tersebut, hasil uji pada rangkaian fisik tidak sesuai tujuan program ini. 
 
-## Conclusion and future work
+## Conclusion and Future Work
 Kesimpulan yang dapat ditarik dari proyek “Security Sensor System” yang dibuat
 menggunakan mikrokontroler ATmega328P, sensor PIR, Buzzer, Relay, dan LED ini adalah
 program ini memberikan solusi yang sederhana untuk menjadi sebuah alat untuk mendeteksi
