@@ -35,8 +35,10 @@ pengembangan sistem keamanan berbasis sensor PIR menggunakan Arduino.
 ## Hardware design and implementation details
 Komponen yang dibutuhkan dalam mendesain dan merangkai skema alat serta fungsinya dalam rangkaian antara lain adalah :
 1) Dua buah Arduino UNO
+
    • Arduino UNO (Master)
    Berfungsi sebagai pengendali utama yang memproses sinyal dari sensor PIR. Ketika sensor PIR mendeteksi pergerakan, Arduino Master akan mengirimkan sinyal ke Arduino Slave.
+
    • Arduino UNO (Slave)
    Berfungsi untuk menerima sinyal dari Arduino Master dan mengendalikan perangkat output seperti LED dan buzzer. Arduino Slave mengaktifkan LED merah dan buzzer ketika pergerakan terdeteksi dan mengaktifkan LED hijau
    ketika tidak ada pergerakan.
