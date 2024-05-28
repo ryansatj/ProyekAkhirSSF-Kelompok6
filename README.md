@@ -50,24 +50,30 @@ Komponen yang dibutuhkan dalam mendesain dan merangkai skema alat serta fungsiny
    ketika tidak ada pergerakan.
    
 3) Satu buah Sensor PIR
+
    Sensor PIR (Passive Infrared Sensor) digunakan untuk mendeteksi pergerakan di sekitarnya. Sensor ini mengirimkan sinyal ke Arduino Master ketika mendeteksi adanya pergerakan. Sensor PIR biasanya memiliki tiga pin: Vcc
    (power supply), GND (ground), dan OUT (output signal).
    
 5) Satu buah Relay
+
    Relay digunakan sebagai saklar elektronik yang diaktifkan oleh sinyal dari Arduino Slave. Relay ini mengendalikan perangkat eksternal yang memerlukan arus lebih besar daripada yang bisa disediakan langsung oleh pin
    Arduino. Dalam konteks ini, relay dapat digunakan untuk mengendalikan sistem keamanan yang lebih besar atau perangkat lainnya yang terhubung.
    
 7) Satu buah Buzzer
+
    Buzzer digunakan sebagai alarm untuk memberikan peringatan suara ketika sensor PIR mendeteksi pergerakan. Buzzer diaktifkan oleh sinyal dari Arduino Slave setelah menerima sinyal dari Arduino Master.
    
 9) Satu buah LED Hijau
+
     LED hijau digunakan sebagai indikator bahwa tidak ada pergerakan yang terdeteksi oleh sensor PIR. LED ini diaktifkan oleh Arduino Slave sebagai bagian dari umpan balik visual untuk menunjukkan kondisi aman.
    
 11) Satu buah LED Merah
-    LED merah digunakan sebagai indikator bahwa pergerakan telah terdeteksi oleh sensor PIR. LED ini diaktifkan oleh Arduino Slave ketika menerima sinyal dari Arduino Master setelah sensor PIR mendeteksi pergerakan,
+
+     LED merah digunakan sebagai indikator bahwa pergerakan telah terdeteksi oleh sensor PIR. LED ini diaktifkan oleh Arduino Slave ketika menerima sinyal dari Arduino Master setelah sensor PIR mendeteksi pergerakan,
     memberikan umpan balik visual bahwa ada pergerakan yang terdeteksi.
     
 13) Satu buah Button
+
     Button digunakan sebagai indikator apabila situasi sudah aman dan bertujuan untuk mematikan Buzzer yang sebelumnya dijadikan sebagai alarm dan melakukan reset agar rangkaian dapat melakukan tugasnya kembali.
 
 Sehingga pada rangkaian fisik, Arduino Master akan terhubung oleh sensor PIR dan Arduino Slave terhubung dengan Buzzer, LED merah, LED hijau, dan Relay Module. Dan pastinya Ardunio Master dan Arduino Slave juga saling terhubung satu sama lain.
