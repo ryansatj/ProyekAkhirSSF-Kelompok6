@@ -1,10 +1,10 @@
 # ProyekAkhirSSF-Kelompok6 | SECURITY SYSTEM SENSOR
 
 ## Anggota Kelompok:
-MUHAMMAD DAFFA RIZKYANDRI 2206829194
-RAJA YONANDRO RUSLITO 2206059553
-RYAN SAFA TJENDANA 2206826835
-YASMIN DEVINA SINURAYA 2206817244
+1. Muhammad Daffa Rizkyandri (2206829194)
+2. Raja Yonandro Ruslito (2206059553)
+3. Ryan Safa Tjendana (2206826835)
+4. Yasmin Devina Sinuraya (2206817244)
 
 ## Introduction to the problem and the solution
 Keamanan rumah dan properti merupakan aspek penting dalam kehidupan sehari-hari.
