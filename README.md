@@ -1,7 +1,7 @@
 # ProyekAkhirSSF-Kelompok6 | SECURITY SYSTEM SENSOR
 
 ## Introduction to the problem and the solution
-Keamanan rumah dan properti merupakan aspek penting dalam kehidupan sehari-hari.
+> Keamanan rumah dan properti merupakan aspek penting dalam kehidupan sehari-hari.
 Banyak orang mencari cara efektif untuk melindungi rumah mereka dari pencurian atau intrusi,
 dan salah satu solusi yang banyak digunakan adalah sistem keamanan berbasis sensor yang dapat
 mendeteksi pergerakan mencurigakan dan memberikan peringatan dini kepada pemilik rumah.
