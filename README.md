@@ -2,9 +2,9 @@
 
 ## Anggota Kelompok:
 1. Muhammad Daffa Rizkyandri (2206829194)
-2. Raja Yonandro Ruslito (2206059553)
-3. Ryan Safa Tjendana (2206826835)
-4. Yasmin Devina Sinuraya (2206817244)
+2. Raja Yonandro Ruslito     (2206059553)
+3. Ryan Safa Tjendana        (2206826835)
+4. Yasmin Devina Sinuraya    (2206817244)
 
 ## Introduction To The Problem and The Solution
 Keamanan rumah dan properti merupakan aspek penting dalam kehidupan sehari-hari.
